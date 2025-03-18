@@ -1,0 +1,42 @@
+        /* Header styling */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* Space between items */
+            padding: 10px 20px; /* Padding for spacing */
+            background-color: #f8f9fa; /* Light background color */
+            border-bottom: 1px solid #ccc; /* Bottom border */
+        }
+
+        /* Search bar container */
+        .search-container {
+            flex-grow: 1; /* Takes up remaining space */
+            display: flex;
+            justify-content: center; /* Centers the search bar */
+        }
+
+        /* Search bar styling */
+        #search {
+            width: 300px; /* Fixed width for the search bar */
+            height: 40px; /* Height of the search bar */
+            padding: 5px 15px; /* Padding inside the search bar */
+            border: 1px solid #ccc; /* Border for the search bar */
+            border-radius: 20px; /* Rounded corners */
+            font-size: 16px; /* Font size */
+            outline: none; /* Remove default outline */
+        }
+
+        /* Login button styling */
+        #login {
+            padding: 10px 20px; /* Padding for the button */
+            background-color: #007BFF; /* Blue background color */
+            color: white; /* White text color */
+            border: none; /* Remove border */
+            border-radius: 20px; /* Rounded corners */
+            font-size: 16px; /* Font size */
+            cursor: pointer; /* Pointer cursor on hover */
+        }
+
+        #login:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
